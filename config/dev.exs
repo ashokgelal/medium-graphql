@@ -58,7 +58,7 @@ config :phoenix, :plug_init_mode, :runtime
 # Configure your database
 config :medium_graphql_api, MediumGraphqlApi.Repo,
   username: "postgres",
-  password: "postgres",
+  password: "",
   database: "medium_graphql_api_dev",
   hostname: "localhost",
   pool_size: 10
